@@ -41,12 +41,12 @@ a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section {
+.my-profile {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
-  padding: 24px 0;
-  border-bottom: 1px solid lightgrey;
+  padding: 15px 0;
+  /* border-bottom: 1px solid lightgrey; */
 }
 
 section:last-child {
@@ -56,6 +56,10 @@ section:last-child {
 .section-title {
   font-weight: bold;
   font-size: 18px;
+  background-color: rgba(48, 63, 159, 0.10);
+  color: rgb(48, 63, 159);
+  text-align: center;
+  margin: 5px 0;
 }
 
 /***********************************
@@ -69,16 +73,20 @@ img.avatar {
 .my-name {
   font-size: 48px;
   line-height: 1;
+  color: rgb(48, 63, 159);
 }
 
 .my-title {
   font-size: 24px;
   font-weight: 300;
-  color: #236FB2;
+  /* color: #236FB2; */
+  font-style: italic;
 }
 
 .links {
   display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
   margin: 10px 0 20px 0;
 }
 
@@ -86,6 +94,7 @@ img.avatar {
   display: flex;
   align-items: center;
   flex: 1;
+  padding: 0 5px;
 }
 
 .link-item svg {
@@ -106,6 +115,10 @@ img.avatar {
   border-bottom: none;
 }
 
+.job-title{
+  font-style: italic;
+}
+
 .job-title-container {
   display: flex;
   justify-content: space-between;
@@ -118,6 +131,9 @@ img.avatar {
   line-height: 1.2;
 }
 
+.job-description{
+  max-width: 70%;
+}
 /***********************************
 * =Skills
 ***********************************/
