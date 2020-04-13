@@ -109,8 +109,8 @@ img.avatar {
 
 .job:last-child {
   border-bottom: none;
-  padding-bottom: 12px;
-  margin-bottom: 12x;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .job-title{
@@ -139,13 +139,15 @@ img.avatar {
 
 .skills-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap:  wrap;
 }
 
 .skills-container>div {
-  flex: 0 47%;
-  margin: 5px 0;
+  flex: 0 30%;
+  margin: 5px 10px;
+  /* border: red solid;
+  box-sizing:border-box */
 }
 .skills-title{
   display: flex;
@@ -177,24 +179,39 @@ img.avatar {
 .interests-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap:  wrap;
 }
 
 .interests-container img {
   height: 35px;
   opacity: 0.75;
+  margin: 0 2px;
 }
 
 /***********************************
-* =References
+* =Courses
 ***********************************/
 
-.reference {
-  font-size: 18px;
+.courses-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap:  wrap;
 }
 
-.reference-details {
-  margin-bottom: 20px;
+.courses-container>div {
+  flex: 0 47%;
+  margin: 5px 10px;
+  /* border: red solid;
+  box-sizing:border-box */
 }
+
+
+
+.courses {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+
 
 
 .dotFill {
