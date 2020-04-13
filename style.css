@@ -71,6 +71,7 @@ img.avatar {
   font-size: 48px;
   line-height: 1;
   color: rgb(48, 63, 159);
+  font-weight: bold;
 }
 
 .my-title {
