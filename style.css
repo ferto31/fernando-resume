@@ -109,6 +109,8 @@ img.avatar {
 
 .job:last-child {
   border-bottom: none;
+  padding-bottom: 12px;
+  margin-bottom: 12x;
 }
 
 .job-title{
