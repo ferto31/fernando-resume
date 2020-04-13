@@ -20,8 +20,9 @@ img {
   fill: currentColor;
   display: inline-block;
   font-size: inherit;
-  height: 1em;
+  height: 1.3em;
   overflow: visible;
+  margin-right: 3px;
 }
 
 a {
